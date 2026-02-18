@@ -1,0 +1,38 @@
+Mnemosyne
+├── mnemosyne
+│   ├── actions
+│   ├── chronicles
+│   │   └── chapter_000.md
+│   ├── config.json
+│   ├── cursor
+│   ├── itinerary.md
+│   ├── live-state.json
+│   ├── methodology.md
+│   └── quick-sync.md
+├── mnemosyne-global
+│   ├── behavior_profiles
+│   │   ├── Copilot-instructions.md
+│   │   ├── Gemini-instructions.md
+│   │   ├── Local-LLM-instructions.md
+│   │   └── Readme.md
+│   ├── core
+│   │   ├── context_map.md
+│   │   ├── global-config.md
+│   │   ├── manifesto.md
+│   │   ├── mnemosyne_agent.md
+│   │   └── mnemosyne_rules.md
+│   ├── cursor
+│   │   └── rules.json
+│   ├── docs
+│   │   └── mnemosyne_design.md
+│   └── protocols
+│       ├── auto-detection.md
+│       ├── log_protocol.md
+│       ├── startup.md
+│       └── succession_protocol.md
+├── README.md
+├── scripts
+│   └── crear_estructura_mnemosyne.sh
+└── tree.txt
+
+12 directories, 24 files

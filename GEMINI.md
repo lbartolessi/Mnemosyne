@@ -1,0 +1,1 @@
+/home/lbartolessi/Workspaces/Mnemosyne/mnemosyne-global/behavior_profiles/Gemini-instructions.md

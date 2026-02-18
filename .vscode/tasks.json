@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Mnemosyne: Update session date",
+      "type": "shell",
+      "command": "${workspaceFolder}/scripts/update_session_date.sh",
+      "args": ["${workspaceFolder}"],
+      "presentation": { "reveal": "silent", "echo": false },
+      "problemMatcher": [],
+      "runOptions": { "runOn": "folderOpen" }
+    }
+  ]
+}

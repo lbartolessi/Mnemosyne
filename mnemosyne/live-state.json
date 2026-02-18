@@ -1,0 +1,54 @@
+{
+    "session": {
+      "start_time": "2026-02-16T18:00:00Z",
+      "end_time": null,
+      "status": "active",
+      "current_chapter": 8,
+      "working_on": "Frontend Infra: Verifying Test Execution",
+      "progress_percent": 15
+    },
+    "project_state": {
+      "backend_status": "unstable",
+      "frontend_status": "rollback-in-progress",
+      "total_tests_passing": 71,
+      "total_tests_failing": 0,
+      "blockers": ["AI Over-engineering", "Corrupt Diffs", "Loss of Trust"]
+    },
+    "last_action": {
+      "timestamp": "2026-02-16T16:30:00Z",
+      "type": "session_close",
+      "description": "Session closed. Master Map visualization and navigation finalized.",
+      "files_modified": [
+        ".mnemosyne/quick-sync.md",
+        ".mnemosyne/live-state.json"
+      ]
+    },
+    "next_tasks": [
+      {
+        "priority": 1,
+        "task": "Feature: Project Metadata",
+        "estimated_effort": "4 hours",
+        "status": "not-started"
+      },
+      {
+        "priority": 2,
+        "task": "Feature: Lexical Normalization",
+        "estimated_effort": "3 hours",
+        "status": "not-started"
+      }
+    ],
+    "auto_detection_enabled": true,
+    "auto_detection_features": [
+      "task_detection",
+      "chronicle_proposal",
+      "succession_alert",
+      "methodology_sync",
+      "itinerary_smart_mark",
+      "session_recap",
+      "watcher_auto_detect",
+      "live_state_update",
+      "context_integrity_check",
+      "auto_detection_disable"
+    ],
+    "session_notes": "Master Map navigation and visualization are stable. Next focus: Metadata."
+  }

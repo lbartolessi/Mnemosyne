@@ -1,0 +1,10 @@
+{
+    "extends": "../mnemosyne-global",
+    "project_specific": [
+      "itinerary.md",
+      "live-state.json",
+      "quick-sync.md",
+      "chronicles/"
+    ]
+  }
+  
