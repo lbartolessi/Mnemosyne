@@ -1,7 +1,7 @@
 # Mnemosyne MANIFESTO (v2.0)
 
 > **CURRENT CHAPTER:** 000
-> **PROJECT PHASE:** Infrastructure Definition
+> **PROJECT PHASE:** Initialization
 
 ## 1. THE PACT (Single Player Mode)
 - **Context:** Single Developer (You) + Primary AI (Wayfarer).
@@ -17,12 +17,7 @@
 - **Style:** Proactive but frictionless. Don't ask for permission to *think*, only to *write*.
 
 ## 3. CORE FILES
-- **`chronicles/`**: The Truth (History).
-- **`itinerary.md`**: The Map (Plan).
-- **`methodology.md`**: The Law (Patterns).
-- **`quick-sync.md`**: The Dashboard (Current State & Crash Recovery).
-
-## 4. PROTOCOLS
-- **Start-up:** Resume from `## NEXT ACTION` in `itinerary.md`.
-- **Logging:** Draft entries immediately upon completion. Ask for "Yes/No".
-- **Succession:** Warn at >25 entries. Execute on command.
+- **`docs/mnemosyne/chronicles/`**: The Truth (History).
+- **`docs/mnemosyne/itinerary.md`**: The Map (Plan).
+- **`docs/mnemosyne/quick-sync.md`**: The Dashboard (Current State).
+- **`.vscode/mnemosyne-core/methodology.md`**: The Law (Patterns).

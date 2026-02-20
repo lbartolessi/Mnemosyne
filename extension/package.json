@@ -1,0 +1,57 @@
+{
+  "name": "mnemosyne-vscode",
+  "displayName": "Mnemosyne",
+  "description": "Cognitive architecture and persistent memory for AI-assisted development.",
+  "version": "0.0.1",
+  "publisher": "mnemosyne-local",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "mnemosyne.initialize",
+        "title": "Mnemosyne: Initialize Project"
+      },
+      {
+        "command": "mnemosyne.syncDate",
+        "title": "Mnemosyne: Sync Session Date"
+      }
+    ],
+    "configuration": {
+      "title": "Mnemosyne",
+      "properties": {
+        "mnemosyne.paths.docs": {
+          "type": "string",
+          "default": "docs/mnemosyne",
+          "description": "Path where variable project files (Itinerary, Chronicles) will be stored."
+        },
+        "mnemosyne.paths.core": {
+          "type": "string",
+          "default": ".vscode/mnemosyne-core",
+          "description": "Path where static core files (Manifesto, Rules) will be stored (Hidden)."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "18.x",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,19 @@
+---
+description: Mnemosyne Core Architecture & Startup
+globs: *
+alwaysApply: true
+---
+# MNEMOSYNE CORE
+
+## 0. AUTO-STARTUP
+
+1. Check if `.vscode/mnemosyne-core/manifesto.md` exists.
+2. If YES:
+   - Read: `.vscode/mnemosyne-core/manifesto.md`
+   - Read: `docs/mnemosyne/itinerary.md`
+   - Read: `docs/mnemosyne/quick-sync.md`
+   - Begin response with: **`Status: Synced | Project: [Name] | Chapter: [N]`**
+
+## PATHS
+- Core: `.vscode/mnemosyne-core/`
+- Docs: `docs/mnemosyne/`

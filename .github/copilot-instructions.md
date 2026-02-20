@@ -1,1 +1,0 @@
-/home/lbartolessi/Workspaces/Mnemosyne/mnemosyne-global/behavior_profiles/Copilot-instructions.md
