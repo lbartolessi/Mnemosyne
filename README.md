@@ -1,6 +1,6 @@
-# MNEMOSYNE
+# Mnemosyne
 
-_A cognitive framework for long‑term collaboration with AI_
+## *A cognitive framework for long‑term collaboration with AI*
 
 Mnemosyne is not a library, not a model, and not a programming framework.  
 It is a **lightweight cognitive architecture** designed to give any AI model  
@@ -17,16 +17,16 @@ The intelligence comes from the interaction between:
 
 ---
 
-## 🌱 What Mnemosyne _is_
+## 🌱 What Mnemosyne *is*
 
 Mnemosyne is:
 
 - A **system of continuity** for AI‑assisted work
-- A **methodology** for reasoning, documenting and deciding
+- A **methodology** for reasoning, documenting, and deciding
 - A **memory layer** that persists across sessions
-- A **set of protocols** for logging, detecting tasks, and evolving a project
+- A **set of simple rules** for logging and managing a project
 - A **workflow** that encourages initiative from the AI
-- A **cognitive scaffold** for people who need structure, reminders, and clarity
+- A **cognitive scaffold** for people who need structure and proactive reminders.
 
 Mnemosyne is not a tool you “run”.  
 It is a tool you **work inside**.
@@ -43,9 +43,9 @@ structured documents that any AI can read and follow.
 
 This allows:
 
-- continuity across days, weeks or months
+- continuity across days, weeks, or months
 - consistent methodology
-- automatic detection of tasks and patterns
+- proactive reminders to log decisions and update plans
 - episodic logging of decisions
 - stable collaboration even if the model changes
 
@@ -62,9 +62,7 @@ Mnemosyne
 │   ├── chronicles
 │   │   └── chapter_000.md
 │   ├── config.json
-│   ├── cursor
 │   ├── itinerary.md
-│   ├── live-state.json
 │   ├── methodology.md
 │   └── quick-sync.md
 ├── mnemosyne-global
@@ -83,14 +81,9 @@ Mnemosyne
 │   │   └── rules.json
 │   ├── docs
 │   │   └── mnemosyne_design.md
-│   └── protocols
-│       ├── auto-detection.md
-│       ├── log_protocol.md
-│       ├── startup.md
-│       └── succession_protocol.md
 ├── README.md
 ├── scripts
-│   └── crear_estructura_mnemosyne.sh
+│   └── create_mnemosyne_structure.sh
 └── tree.txt
 
 12 directories, 24 files
@@ -101,7 +94,6 @@ Projects that use Mnemosyne will include their own:
 
 - `itinerary.md`
 - `chronicles/`
-- `live-state.json`
 - `quick-sync.md`
 
 These files are project‑specific and evolve over time.
@@ -111,22 +103,21 @@ These files are project‑specific and evolve over time.
 ## 🧭 How to use Mnemosyne
 
 1. Open your AI environment (Cursor, Gemini, Copilot, etc.)  
-   → **Cursor**: Reglas en `.cursor/rules/`. Ver `mnemosyne-global/docs/cursor_integration.md` para integrar Mnemosyne en otros proyectos.
+   → **Cursor**: Rules in `.cursor/rules/`. See `mnemosyne-global/docs/cursor_integration.md` to integrate Mnemosyne into other projects.
 2. Provide the AI with the contents of this repository  
    (Cursor does this automatically if the folder is inside the project)
-3. Start a session by asking:  
+3. Start a session by asking (or equivalent intent in any language):  
    **“Load Mnemosyne and resume from the NEXT ACTION.”**
 4. Work normally:
    - ask questions
    - request changes
    - let the AI propose tasks
-   - let the AI update logs and methodology
+   - let the AI remind you to update logs and the itinerary
 5. End the session with:  
    **“Close session and save recap.”**
 
-Mnemosyne is designed to encourage **initiative** from the AI.  
-It will detect patterns, propose tasks, warn about inconsistencies,  
-and help maintain continuity.
+Mnemosyne is designed to encourage **proactive reminders** from the AI.
+It will help you maintain continuity and not forget important steps.
 
 ---
 
@@ -134,9 +125,9 @@ and help maintain continuity.
 
 - People who work on long‑term projects with AI
 - Researchers, writers, developers, linguists
-- Personas despistadas o con TDAH
+- Scatterbrained folks or those with ADHD
 - Anyone who needs structure, reminders, and continuity
-- Anyone who wants an AI that _remembers_ and _thinks with them_
+- Anyone who wants an AI that *remembers* and *thinks with them*
 
 Mnemosyne is especially useful when:
 

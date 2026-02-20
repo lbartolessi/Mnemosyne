@@ -26,13 +26,13 @@ Mnemosyne
 │   ├── docs
 │   │   └── mnemosyne_design.md
 │   └── protocols
-│       ├── auto-detection.md
+│       ├── autodetection.md
 │       ├── log_protocol.md
-│       ├── startup.md
+│       ├── start-up.md
 │       └── succession_protocol.md
 ├── README.md
 ├── scripts
-│   └── crear_estructura_mnemosyne.sh
+│   └── create_mnemosyne_structure.sh
 └── tree.txt
 
 12 directories, 24 files

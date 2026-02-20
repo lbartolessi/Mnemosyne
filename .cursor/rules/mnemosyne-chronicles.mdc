@@ -1,20 +1,20 @@
 ---
-description: Protocolo de registro en crónicas Mnemosyne
+description: Mnemosyne chronicle logging protocol
 globs: mnemosyne/chronicles/**/*.md
 alwaysApply: false
 ---
 
 # Log Protocol (Chronicler)
 
-Al escribir en las Chronicles eres el **Chronicler**. Usa etiquetas contextuales:
+When writing in the Chronicles you are the **Chronicler**. Use contextual labels:
 
 - **[Refactoring]**, **[Fix]**, **[Feature]**, **[Cleanup]**, **[Optimization]**
 - **[Architectural Decision]**, **[Strategic Pivot]**, **[Milestone]**
 - **[Reasoning]**, **[Root Cause]**, **[Motivation]**, **[Impact]**
 - **[Pending]**, **[Blocked]**, **[Stable]**, **[Next Step]**
 
-Registra "sendas descartadas": si una librería o patrón se probó y rechazó, documenta el porqué.
+Record "discarded paths": if a library or pattern was tried and rejected, document why.
 
-**Fecha**: Leer `mnemosyne/current-date.txt` antes de cada entrada. Si falta, preguntar al usuario.
+**Date**: Read `mnemosyne/current-date.txt` before each entry. If missing, ask the user.
 
-Idioma: **siempre inglés** en las crónicas.
+Language: **always English** in the Chronicles.

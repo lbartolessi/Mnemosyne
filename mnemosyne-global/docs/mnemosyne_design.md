@@ -22,7 +22,7 @@ Mnemosyne provides:
 - Methodology tracking
 - Task management
 - Episodic logging
-- Behavioral rules for the AI
+- Behavioural rules for the AI
 - Automatic detection of patterns and tasks
 
 It transforms any LLM into a stable collaborator.
@@ -48,8 +48,8 @@ The AI reads these files at every session.
 Mnemosyne works with:
 
 - Gemini
-- Copilot (GPT‑4o)
-- Local LLMs (Llama, Qwen, Mistral)
+- Copilot (`GPT‑4o`)
+- Local LLMs (Llama, Qwen, or Mistral)
 - Any model Cursor can use
 
 Because the intelligence is in the _protocol_, not in the model.
@@ -81,7 +81,7 @@ Contains:
 - universal rules
 - methodology
 - protocols
-- behavior profiles
+- behaviour profiles
 - Cursor rules
 
 This layer is shared across all projects.
@@ -144,9 +144,9 @@ And compensates for their weaknesses:
 
 Especially:
 
-- people despistados
-- personas con TDAH
-- personas que necesitan continuidad
+- scatterbrained people
+- people with ADHD
+- people who need continuity
 
 ---
 

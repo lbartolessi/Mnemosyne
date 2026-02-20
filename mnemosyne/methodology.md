@@ -1,4 +1,4 @@
-# METHODOLOGY (Méthodos)
+# METHODOLOGY (Methods)
 
 > INSTRUCTION: This file records our habits, technical standards, and craftsmanship style.
 > UPDATE RULE: Update this file ONLY when:
